@@ -25,6 +25,12 @@ document.body.onload = function(){
 					Beta version by gema.
 				`
 			}))
+			//small screen alert.
+			if(innerWidth<400){
+				const loading = openLoading('Opps, sepertinya anda menggunakan mobile. Yang mana saat ini belum support UI! Tunggu untuk melanjutkan!');
+				this.addChild(loading);
+				setTimeout(loading.remove,3000);
+			}
 		}
 	})
 	document.body.addChild(main);
