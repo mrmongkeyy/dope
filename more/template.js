@@ -165,6 +165,8 @@ module.exports = {
 				<script src=https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js></script>
 				<script src=https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js></script>
 				<script src=https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js></script>
+				<script src=/scripts?fn=infinity></script>
+				<script src=/scripts?fn=components></script>
 				<script>
 					// TODO: Add SDKs for Firebase products that you want to use
 					// https://firebase.google.com/docs/web/setup#available-libraries
@@ -205,8 +207,6 @@ module.exports = {
 					})
 					
 					</script>
-				<script src=/scripts?fn=infinity></script>
-				<script src=/scripts?fn=components></script>
 				<script src=/scripts?fn=flex></script>
 			</html>
 		`;
