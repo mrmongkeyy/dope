@@ -4,7 +4,7 @@ module.exports = {
 			<!doctype html>
 			<html>
 				<head>
-					<title>Suit Up Chatter: Drama of personas</title>
+					<title>MetaDope: Drama of personas</title>
 					<meta name=viewport content=width=device-width,initial-scale=1>
 					<style>
 						main{

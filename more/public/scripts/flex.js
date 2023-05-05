@@ -15,6 +15,16 @@ document.body.onload = function(){
 		onadded(){
 			this.addChild(header);
 			this.addChild(content);
+			this.addChild(makeElement('div',{
+				style:`
+					color:white;
+					margin-top:10px;
+					font-weight:bold;
+				`,
+				innerHTML:`
+					Beta version by gema.
+				`
+			}))
 		}
 	})
 	document.body.addChild(main);

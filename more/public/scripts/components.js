@@ -37,7 +37,7 @@ const header = makeElement('header',{
 				style="
 					font-size:20px;
 				"
-				>SuitUpChatter</span><br>
+				>MetaDope</span><br>
 				<span>The Drama of Personas.</span>
 			</div>
 			
