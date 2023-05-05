@@ -1,0 +1,25 @@
+{
+  "name": "suitupchatter",
+  "version": "1.0.0",
+  "description": "This is a game, not an action but a manipulation game.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemasajaa/suitupchatter.git"
+  },
+  "keywords": [
+    "goodone"
+  ],
+	"dependencies":{
+    "socketio": "^1.0.0"
+	},
+  "author": "gemasajaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gemasajaa/suitupchatter/issues"
+  },
+  "homepage": "https://github.com/gemasajaa/suitupchatter#readme"
+}
